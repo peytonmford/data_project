@@ -1,4 +1,4 @@
-# Avocado Prices: Does Organic or Conventional? 
+# Avocado Prices: Organic or Conventional? 
 
 ## Deliverable 1
 ### Selected topic
