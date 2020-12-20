@@ -16,3 +16,6 @@ We discovered this dataset on kaggle by Hass Avocado Board Website (2013-2020). 
 ### Questions they hope to answer with the data
 
 Is the avocado's being bought going to be conventional or organic? The type of the avocado could indicate a reason why the price is the way it is. 
+
+### Who Did What:
+Pete did the machine learning, Tania did the database, and Peyton did all the Github.
