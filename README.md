@@ -11,8 +11,25 @@ The reason we have selected the topic was due to the shared loved of avocados fr
 
 ### Description of the source of data
 
-We discovered this dataset on kaggle by Hass Avocado Board Website (2013-2020). This dataset has 13 columns, including: average price, total volume, product look-up code, bag sizes of avocados, the type of avocados, year, and geography of where it was being sold. This dataset has over 30,000 rows of data. 
+We discovered this dataset on Kaggle by Hass Avocado Board Website (2013-2020). This dataset has 13 columns, including: average price, total volume, product look-up code, bag sizes of avocados, the type of avocados, year, and geography of where the avocado was being sold. This dataset has over 30,000 rows of data. 
 
 ### Questions they hope to answer with the data
 
-Is the avocado's being bought going to be conventional or organic? The type of the avocado could indicate a reason why the price is the way it is. 
+Are the avocado's being bought going to be conventional or organic? The type of the avocado could indicate a reason why the price is the way it is. 
+
+
+## Deliverable 2
+
+The following descriptions and explination are provided for the machine learning role of this final project:
+### Team members submit the code for their machine learning model:
+
+### Description of preliminary data preprocessing:  
+The chosen dataset has 13 columns and 30,022 rows of data. I checked for null data and null rows. I determined the datatypes of each column and the intergrity of the ata for mistakes. 
+
+### Description of preliminary feature engineering and preliminary feature selection, including their decisionmaking process 
+
+
+### Description of how data was split into training and testing sets  
+
+
+### Explanation of model choice, including limitations and benefits
