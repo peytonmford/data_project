@@ -59,20 +59,20 @@ print ("Opened database successfully");
 
 
 # INPUTTING DATA INTO TYPE TABLE
-conn.execute("INSERT OR REPLACE INTO TYPE_ID (ID) \
-      VALUES (0)");
+# conn.execute("INSERT OR REPLACE INTO TYPE_ID (ID) \
+#       VALUES (0)");
 
-conn.execute("INSERT OR REPLACE INTO TYPE_ID (ID) \
-      VALUES (0)");
+# conn.execute("INSERT OR REPLACE INTO TYPE_ID (ID) \
+#       VALUES (0)");
 
-conn.execute("INSERT OR REPLACE INTO TYPE_ID (ID) \
-      VALUES (1)");
+# conn.execute("INSERT OR REPLACE INTO TYPE_ID (ID) \
+#       VALUES (1)");
 
-conn.execute("INSERT OR REPLACE INTO TYPE_ID (ID) \
-      VALUES (0)");
+# conn.execute("INSERT OR REPLACE INTO TYPE_ID (ID) \
+#       VALUES (0)");
 
-conn.execute("INSERT OR REPLACE INTO TYPE_ID (ID) \
-      VALUES (0)");
+# conn.execute("INSERT OR REPLACE INTO TYPE_ID (ID) \
+#       VALUES (0)");
 
 # # INPUTTING DATA INTO SIZE TABLE 
 # conn.execute("INSERT OR REPLACE INTO SIZE (ID,SMALL_BAGS,LARGE_BAGS,XLARGE_BAGS,TOTAL_BAGS) \
@@ -138,6 +138,9 @@ conn.execute("INSERT OR REPLACE INTO TYPE_ID (ID) \
 
 # conn.execute("INSERT OR REPLACE INTO PURCHASE (AVG_PRICE,TOTAL_VOLUME) \
 #       VALUES (8.00, 52.08)");
+
+
+# SELECT AVG_PRICE, YEAR FROM AVACADO INNER JOIN PURCHASE ON AVACADO.ID = PURCHASE.AVG_PRICE;
 
 
 conn.commit()
