@@ -27,6 +27,7 @@ SELECT * FROM plu;
 
 -- Joining Avocado and PLU
  SELECT plu.geography,
+ 		plu.average_price,
 		avocado.type,
    		avocado.on_date,
     	avocado.total_volume
