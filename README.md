@@ -17,6 +17,7 @@ We discovered this dataset on kaggle by Hass Avocado Board Website (2013-2020). 
 
 Is the avocado's being bought going to be conventional or organic? The type of the avocado could indicate a reason why the price is the way it is. 
 
+
 # Deliverable 2 - Machine Learning Role Team members submit the code for their machine learning model, as well as the following:
 ## Description of preliminary data preprocessing
 I began the preprocessing by reading the dataset into a jupyter notebookusing pandas. I created a pandas dataframe to take a look at the structure of the dataset. I paid attention to the number of rows and columns, the column headings, and the different types of data in the dataset that were identifiable by just looking at the data. Next i took a deeper look at the data and the info by using the .info function to learn how many rows and columns there are in the dataset, to see if the data was well organized, and to see the non-null count. I then checked for missing data using the .isnull().sum() function. Just to make sure, I examined the data for null values and dropped the null rows and columns where all values were null. I then took a look at the specific types of data by running the .dtypes function. 
