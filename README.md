@@ -5,7 +5,7 @@
 
 The topic we have selected is the prices of avocados and what variables effect the price. Is it the type of avocado, for example does organic type make the price higher, or is the season/region? We aim to answer questions similar to these and see the real reason for the prices of avocados. 
 
-### Reason they selected the topic
+### Reason we have selected the topic
 
 The reason we have selected the topic was due to the shared loved of avocados from half of the group. We saw this dataset and knew this is what we wanted to do our project over. While the dataset may need to be cleaned, we believe this is a great data source to complete the project. 
 
@@ -17,8 +17,6 @@ We discovered this dataset on kaggle by Hass Avocado Board Website (2013-2020). 
 
 Is the avocado's being bought going to be conventional or organic? The type of the avocado could indicate a reason why the price is the way it is. 
 
-### Who Did What:
-Pete did the machine learning, Tania did the database, and Peyton did all the Github.
 
 # Deliverable 2 - Machine Learning Role Team members submit the code for their machine learning model, as well as the following:
 ## Description of preliminary data preprocessing
@@ -29,4 +27,3 @@ I began the preliminary feature engineering by realizing that the machine learni
 Since the purpose of the project is to predict a location I decided the test column would be geography. I ran .corr over the dataframe and plotted the results to see the heatmap results of how the cloumns were related to each other. I determined from my observation to use all of the remaining columns as features for the model.
 ## Explanation of model choice, including limitations and benefits
 I ran several different models and decided to use Random Forest Regression because it does well with many regression tasks because of its nonlinear nature, uses leafs that reduce the complexity and tends to generalize the model better than other models I tried. The RFR cannot extrapolate, but I didn't need that feature for this task because I need a prediction that is an average of previously observed labels. RFR provided the better accuracy over the data. I also tried Lasso, Ridge and Polynomial models.  
-   
