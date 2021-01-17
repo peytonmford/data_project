@@ -11,12 +11,11 @@ The reason we have selected the topic was due to the shared loved of avocados fr
 
 ### Description of the source of data
 
-We discovered this dataset on kaggle by Hass Avocado Board Website (2013-2020). This dataset has 13 columns, including: average price, total volume, product look-up code, bag sizes of avocados, the type of avocados, year, and geography of where it was being sold. This dataset has over 30,000 rows of data. 
+We discovered this dataset on Kaggle by Hass Avocado Board Website (2013-2020). This dataset has 13 columns, including: average price, total volume, product look-up code, bag sizes of avocados, the type of avocados, year, and geography of where the avocado was being sold. This dataset has over 30,000 rows of data. 
 
 ### Questions they hope to answer with the data
 
-Is the avocado's being bought going to be conventional or organic? The type of the avocado could indicate a reason why the price is the way it is. 
-
+Are the avocado's being bought going to be conventional or organic? The type of the avocado could indicate a reason why the price is the way it is. 
 
 # Deliverable 2 - Machine Learning Role Team members submit the code for their machine learning model, as well as the following:
 ## Description of preliminary data preprocessing
