@@ -1,12 +1,12 @@
-# data_project
+# Deliverable 3
 
-## Description of the data exploration phase of the project:
+### Description of the data exploration phase of the project:
 - We want to see where the best locations would be to set up Chipotle stores around the country.
 - First, we looked at the prices statewide to give us a general understanding. 
 - Then, we moved onto specific regions and then cities.
 - We will be using Tableau for our data exploration and by using the “Details” function, users can hover over each individual visual to see the exact averages.
 
-## Description of the analysis phase of the project:
+### Description of the analysis phase of the project:
 - Clean the data
   - Remove null values
   - Ambiguity values ex: Total U.S was too broad 
@@ -28,7 +28,7 @@
       - Lasso Regression
       - Bayesian Ridge Regression
 
-## Technologies, languages, tools, and algorithms used throughout the project:
+### Technologies, languages, tools, and algorithms used throughout the project:
 - PostGres
 - Tableau
 - Python
