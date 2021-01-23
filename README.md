@@ -28,3 +28,30 @@ Since the purpose of the project is to predict a location I decided the test col
 I ran several different models and decided to use Random Forest Regression because it does well with many regression tasks because of its nonlinear nature, uses leafs that reduce the complexity and tends to generalize the model better than other models I tried. The RFR cannot extrapolate, but I didn't need that feature for this task because I need a prediction that is an average of previously observed labels. RFR provided the better accuracy over the data. I also tried Lasso, Ridge and Polynomial models.  
 ### Google Slides
 https://docs.google.com/presentation/d/1afKGKIfgfxIHac8w4pZt3iSGRL1X7rJ6-6nF6OLW_ko/edit#slide=id.gb4a23a5970_0_354
+
+# Deliverable 3 - Machine Learning Role: Team member submits the code for machine learning model, as well as the following:
+## Description of data preprocessing 
+I've been experiencing some instances of error messages that read, "strings were unable to be converted to floats". The challenge has been to figure out why some locations in the 'geography' column are not converting from words to numbers even after label encoding. I haven't figured it out, yet.   
+## Description of feature engineering and the feature selection, including their decisionmaking process
+The features have worked well in the training and testing of the data. The challenge has been working with the 'geography' column and converting the data to numbers for the machine learing model. The results clearly state that the desired results have been produced, but later in the process error codes continue to arise stating the strings have not been converted to floats.
+## Description of how data was split into training and testing sets
+No changes have been made to the code pertaining to how the data was split.
+## Explanation of model choice, including limitations and benefits 
+I ran several different models and decided to use Random Forest Regression because it does well with many regression tasks because of its nonlinear nature, uses leafs that reduce the complexity and tends to generalize the model better than other models I tried. The RFR cannot extrapolate, but I didn't need that feature for this task because I need a prediction that is an average of previously observed labels. RFR provided the better accuracy over the data. I also tried Lasso, Ridge and Polynomial models.  
+## Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables) 
+I decided to include the other four models that were rejected in the final code: Lasso, Ridge, Polynomial, and Bayesian Ridge for the purpose of comparison. No changes have been made to the model choice, only the inclusion of additional models for support of why I chose Random Forest.
+## Description of the trained model(s) thus far, and any additional training that will take place  
+## Description of current accuracy score 
+The slide depicting the current accuracy score is found in our google slides. The following results are for the Random Forest model:
+
+train data accuracy : 0.9760720442962847
+
+test data accuracy : 0.8258906559136814
+
+loss of train data : 3.364313990347702
+
+loss of test data : 23.925179973678443
+## Additionally, the model obviously addresses the question or problem the team is solving
+The model does address the question of location as the target of the machine learning model. I will continue to work on creating validation pots and graphs for the next deliverable and our presentation next week.
+### Google Slides
+https://docs.google.com/presentation/d/1afKGKIfgfxIHac8w4pZt3iSGRL1X7rJ6-6nF6OLW_ko/edit#slide=id.gb4a23a5970_0_354
