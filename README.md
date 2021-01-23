@@ -42,7 +42,7 @@ I ran several different models and decided to use Random Forest Regression becau
 I decided to include the other four models that were rejected in the final code: Lasso, Ridge, Polynomial, and Bayesian Ridge for the purpose of comparison. No changes have been made to the model choice, only the inclusion of additional models for support of why I chose Random Forest.
 ## Description of the trained model(s) thus far, and any additional training that will take place  
 ## Description of current accuracy score 
-The slide depicting the current accuracy score is fpund in our google slides. The following results are for the Random Forest model:
+The slide depicting the current accuracy score is found in our google slides. The following results are for the Random Forest model:
 
 train data accuracy : 0.9760720442962847
 
