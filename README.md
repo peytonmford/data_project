@@ -1,4 +1,4 @@
-# Avocado Prices: Organic or Conventional? 
+# The Best Location to Sell Avocados?
 
 ## Deliverable 1
 ### Selected topic
@@ -15,7 +15,7 @@ We discovered this dataset on Kaggle by Hass Avocado Board Website (2013-2020). 
 
 ### Questions they hope to answer with the data
 
-Are the avocado's being bought going to be conventional or organic? The type of the avocado could indicate a reason why the price is the way it is. 
+As Chipotle’s endeavor to expand a new avocado product, which location would be the best to sell avocados to? 
 
 # Deliverable 2 - Machine Learning Role Team members submit the code for their machine learning model, as well as the following:
 ## Description of preliminary data preprocessing
