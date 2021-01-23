@@ -16,7 +16,7 @@
   - PostgresSQL will be used 
   - Creat tables
     - Inner join
-- Take the tables that was created and apply Machine Learning to answer our main question: Are the avocado's being bought going to be conventional or organic? Which  location would be the best to sell avocados to as Chipotles endeavor in a new avocado product?  
+- Take the tables that was created and apply Machine Learning to answer our main question: As Chipotle’s endeavor to expand a new avocado product, which location would be the best to sell avocados to? Also which type of avocado would be better, organic or conventional?
   - Python
     - Pandas
     - NumPy
