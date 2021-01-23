@@ -43,9 +43,13 @@ I decided to include the other four models that were rejected in the final code:
 ## Description of the trained model(s) thus far, and any additional training that will take place  
 ## Description of current accuracy score 
 The slide depicting the current accuracy score is fpund in our google slides. The following results are for the Random Forest model:
+
 train data accuracy : 0.9760720442962847
+
 test data accuracy : 0.8258906559136814
+
 loss of train data : 3.364313990347702
+
 loss of test data : 23.925179973678443
 ## Additionally, the model obviously addresses the question or problem the team is solving
 The model does address the question of location as the target of the machine learning model. I will continue to work on creating validation pots and graphs for the next deliverable and our presentation next week.
