@@ -102,3 +102,5 @@ The model does address the question of location as the target of the machine lea
 ### Google Slides
 https://docs.google.com/presentation/d/1afKGKIfgfxIHac8w4pZt3iSGRL1X7rJ6-6nF6OLW_ko/edit#slide=id.gb4a23a5970_0_354
 
+### Tableau Link
+https://public.tableau.com/profile/peyton5401#!/vizhome/AvocadoPrices_16112778290490/AvocadoPrices
