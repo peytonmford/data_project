@@ -1,5 +1,5 @@
 
-# The Best Location to Sell Avocados?
+# The best locations for testing a new product for the best avocado prices?
 
 ## Deliverable 1
 ### Selected topic
@@ -16,7 +16,7 @@ We discovered this dataset on Kaggle by Hass Avocado Board Website (2013-2020). 
 
 ### Questions they hope to answer with the data
 
-As Chipotle’s endeavor to expand a new avocado product, which location in the US would be the best to sell the new avocado product to? 
+As Chipotle’s endeavor to expand a new avocado product, where are the best locations for testing a new product for the best avocado prices?
 
 # Deliverable 2 - Machine Learning Role Team members submit the code for their machine learning model, as well as the following:
 ## Description of preliminary data preprocessing
