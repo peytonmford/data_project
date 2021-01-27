@@ -16,7 +16,7 @@ We discovered this dataset on Kaggle by Hass Avocado Board Website (2013-2020). 
 
 ### Questions they hope to answer with the data
 
-As Chipotle’s endeavor to expand a new avocado product, which location would be the best to sell avocados to? 
+As Chipotle’s endeavor to expand a new avocado product, which location in the US would be the best to sell the new avocado product to? 
 
 # Deliverable 2 - Machine Learning Role Team members submit the code for their machine learning model, as well as the following:
 ## Description of preliminary data preprocessing
