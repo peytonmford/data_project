@@ -1,5 +1,5 @@
 
-# The best locations for testing a new product for the best avocado prices?
+# Best Locations to Sell New Avocado Product
 
 ## Deliverable 1
 ### Selected topic
