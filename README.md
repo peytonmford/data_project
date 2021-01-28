@@ -1,3 +1,16 @@
+# Deliverable 4
+
+### Result of Analysis:
+Best Locations:
+Los Angeles, California
+San Francisco, California 
+Plan:
+Pick a limit of stores to test our new product with avocados 
+
+### Recommendation for future analysis:
+
+### Anything the team would have done differently
+
 
 # Deliverable 3
 
