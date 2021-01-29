@@ -1,15 +1,17 @@
 # Deliverable 4
 
 ### Result of Analysis:
-Best Locations:
-Los Angeles, California
-San Francisco, California 
-Plan:
-Pick a limit of stores to test our new product with avocados 
+- Best Locations:
+  - Los Angeles, California
+  - San Francisco, California 
+- Plan with the results:
+  - Pick a limit of stores to test our new product with avocados in LA and San Francisco. Also we would branch out to Texas as that came up close behind        California. 
 
 ### Recommendation for future analysis:
+- The recommendations for future analysis specifically for database, I would integrate more tables and take in the population aspect to help understand and support in answering our main question better. Knowing the population per state would also be a big data set that shape the database and interact with the analysis and machine learning.
 
 ### Anything the team would have done differently
+- In the aspect of database, I would like to try to see if we can create more tables and see more of the connection between each. Also try other SQL code to filter out to better see the data in tables which would help understand the relationship of the data as parts. 
 
 
 # Deliverable 3
