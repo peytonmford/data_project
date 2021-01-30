@@ -1,3 +1,5 @@
+## Deliverable 4
+
 Team members submit the working code for their machine learning model, as well as the following:
 ## Description of data preprocessing:
 The preprocessing of the data was done in jupyter notebook until the final week of preparing the final project. I moved the data into Colab in order to connect with the database our team member had created. The final steps of preprocessing were made and all error messages were corrected. All code is working and accomplished our preferred outcomes. 
@@ -17,11 +19,12 @@ The data was split using the ‘geography’ column as our test target and all r
 ## Explanation of model choice, including limitations and benefits 
 The choice of our model changed throughout the experience. There was a little confusion about our ability to predict a location using the ‘geography’ column with a regression model. However, we were aware that a classification model is capable of predicting at most two possible outcomes. We needed to use a regression model to account for the nearly forty possible outcomes from our data. We choose the linear regression model. The following points speak to the advantages and disadvantages we considered when we chose this model:
 
-Advantages –
+### Advantages –
 1.	The algorithm is easy to implement and gives good results usually. It also has a lower time complexity when compared to other algorithms. And the mathematical equations are not that difficult to understand.
 2.	Linear regression is good at finding the nature of the relationship between variables. With the strong relationship between variables in this dataset it made sense to use this to our advantage.
 3.	Overfitting arises when a model fits a dataset very closely and captures the unnecessary or ‘noisy’ data at the cost of accurately predicting the best performance of the test set. Since we took the time to remove what we considered ‘noisy’ data from the dataset, we decided that this algorithm would work well with regularization to reduce the risk of overfitting the data.
-Disadvantages—
+
+### Disadvantages—
 1.	Linear Regression is prone to underfitting which occurs when the function cannot fit the data well. Because the relationship between the variables isn’t often linear, a straight line won’t fit the data and a more complex function would be needed.
 2.	 This algorithm is also sensitive to outliers which are extremely high or low values that deviate from the other data points.
 
