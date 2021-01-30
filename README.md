@@ -2,6 +2,8 @@
 
 Team members submit the working code for their machine learning model, as well as the following:
 ## Description of data preprocessing:
+I began the preprocessing by reading the dataset into a jupyter notebook using pandas. I created a pandas dataframe to take a look at the structure of the dataset. I paid attention to the number of rows and columns, the column headings, and the different types of data in the dataset that were identifiable by just looking at the data. Next I took a deeper look at the data and the info by using the .info function to learn how many rows and columns there are in the dataset, to see if the data was well organized, and to see the non-null count. I then checked for missing data using the .isnull().sum() function. Just to make sure, I examined the data for null values and dropped the null rows and columns where all values were null. I then took a look at the specific types of data by running the .dtypes function.
+
 The preprocessing of the data was done in jupyter notebook until the final week of preparing the final project. I moved the data into Colab in order to connect with the database our team member had created. The final steps of preprocessing were made and all error messages were corrected. All code is working and accomplished our preferred outcomes. 
 The following functions were used to preprocess the data: 
 
@@ -14,10 +16,10 @@ We decided to train our model to predict a location. In order for the model to w
 I also used a heatmap to visualize the correlation between each feature column and we discovered a strong relationship among several of the columns. It was our decision to include all of the columns in the model because of the balance of the data.
 
 ## Description of how data was split into training and testing sets: 
-The data was split using the ‘geography’ column as our test target and all remaining columns as our feature set. The data was randomly split 75/25. 
+I ran a correlation function (.corr) over the dataframe and plotted the results to visualize heatmap results of how the cloumns were related to each other. We determined from our observation that we would include all of the remaining columns as features for the model.The data was split using the ‘geography’ column as our test target and all remaining columns as our feature set. The data was randomly split using the default of 75/25. 
 
 ## Explanation of model choice, including limitations and benefits 
-The choice of our model changed throughout the experience. There was a little confusion about our ability to predict a location using the ‘geography’ column with a regression model. However, we were aware that a classification model is capable of predicting at most two possible outcomes. We needed to use a regression model to account for the nearly forty possible outcomes from our data. We choose the linear regression model. The following points speak to the advantages and disadvantages we considered when we chose this model:
+The choice of our model changed throughout the experience. There was a little confusion about our ability to predict a location using the ‘geography’ column with a regression model. However, we were aware that a classification model is only capable of predicting at most two possible outcomes and our data is fluid and changes from month to month. We decided not to include all of the models that were created usinf Classification algorithms because they didn't fit the dataset. We did include one Classification model in the final code as an example. We needed to use a regression model to account for the nearly forty possible outcomes for a location evidenced from our data. We choose the Linear Regression model as our primary algorithm. We also included the Random Forest algorithm as a reality check. The following points speak to the advantages and disadvantages we considered when we chose the Linear Regression algorithm:
 
 ### Advantages –
 1.	The algorithm is easy to implement and gives good results usually. It also has a lower time complexity when compared to other algorithms. And the mathematical equations are not that difficult to understand.
