@@ -38,5 +38,8 @@ The model was trained using the same target and features as the previous deliver
 From the research I’ve done a confusion matrix won’t work with the regression model we have chosen. Rather, the use of RMSE is preferred. Root Mean Square Error is the measure of how well a regression line fits the data points. The RMSE results for our Linear Regression model are:
 train data: 0.9843
 test data: 0.9951 
-Additionally, the model obviously addresses the question or problem the team is solving. Note: If statistical analysis is not included as part of the current analysis, include a description of how it would be included in the next phases of the project.
+
+## Additionally, the model obviously addresses the question or problem the team is solving. Note: If statistical analysis is not included as part of the current analysis, include a description of how it would be included in the next phases of the project.
+The model does address the problem our team is solving.
+
 The next phases of the project might include additional graphs depicting the RMSE. We believe it would be a good idea to also look at population density as a factor in making the prediction for an appropriate location. Although Los Angeles and San Francisco both have dense populations when compared to the other locations it could possibly be helpful to have another column in the feature set with the data.  
