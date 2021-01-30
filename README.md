@@ -113,7 +113,7 @@ loss of train data : 3.364313990347702
 
 loss of test data : 23.925179973678443
 ### Additionally, the model obviously addresses the question or problem the team is solving
-The model does address the question of location as the target of the machine learning model. I will continue to work on creating validation pots and graphs for the next deliverable and our presentation next week.
+The model does address the question of location as the target of the machine learning model. I will continue to work on creating validation plots and graphs for the next deliverable and our presentation next week.
 ### Google Slides
 https://docs.google.com/presentation/d/1afKGKIfgfxIHac8w4pZt3iSGRL1X7rJ6-6nF6OLW_ko/edit#slide=id.gb4a23a5970_0_354
 
