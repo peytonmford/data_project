@@ -117,7 +117,7 @@ https://public.tableau.com/profile/peyton5401#!/vizhome/AvocadoPrices_1611277829
 ### Anything the team would have done differently
 - In the aspect of database, I would like to try to see if we can create more tables and see more of the connection between each. Another things is to try other SQL codes to filter out to better see the data in tables which would help understand the relationship of the data as parts. 
 
-## Deliverable 4: Machine Learning Role
+## Machine Learning Role
 
 Team members submit the working code for their machine learning model, as well as the following:
 ### Description of data preprocessing:
