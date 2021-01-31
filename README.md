@@ -1,19 +1,3 @@
-# Deliverable 4
-
-### Result of Analysis:
-- Best Locations:
-  - Los Angeles, California
-  - San Francisco, California 
-- Plan with the results:
-  - Pick a limit of stores to test our new product with avocados in LA and San Francisco. Also we would branch out to Texas as that came up close behind        California. 
-
-### Recommendation for future analysis:
-- The recommendations for future analysis specifically for database, use a larger dataset to see if this impacts our answer in anyway. Also  I would integrate more tables and take in the population aspect to help understand and support in answering our main question better. Knowing the population per state would also be a big data set that shape the database and interact with the analysis and machine learning.
-
-### Anything the team would have done differently
-- In the aspect of database, I would like to try to see if we can create more tables and see more of the connection between each. Another things is to try other SQL codes to filter out to better see the data in tables which would help understand the relationship of the data as parts. 
-
-
 # Best Locations to Sell New Avocado Product
 
 ## Deliverable 1
@@ -42,8 +26,6 @@ I began the preliminary feature engineering by realizing that the machine learni
 Since the purpose of the project is to predict a location I decided the test column would be geography. I ran .corr over the dataframe and plotted the results to see the heatmap results of how the cloumns were related to each other. I determined from my observation to use all of the remaining columns as features for the model.
 ## Explanation of model choice, including limitations and benefits
 I ran several different models and decided to use Random Forest Regression because it does well with many regression tasks because of its nonlinear nature, uses leafs that reduce the complexity and tends to generalize the model better than other models I tried. The RFR cannot extrapolate, but I didn't need that feature for this task because I need a prediction that is an average of previously observed labels. RFR provided the better accuracy over the data. I also tried Lasso, Ridge and Polynomial models.  
-### Google Slides
-https://docs.google.com/presentation/d/1afKGKIfgfxIHac8w4pZt3iSGRL1X7rJ6-6nF6OLW_ko/edit#slide=id.gb4a23a5970_0_354
 
 
 # Deliverable 3 
@@ -119,3 +101,18 @@ https://docs.google.com/presentation/d/1afKGKIfgfxIHac8w4pZt3iSGRL1X7rJ6-6nF6OLW
 
 ### Tableau Link
 https://public.tableau.com/profile/peyton5401#!/vizhome/AvocadoPrices_16112778290490/AvocadoPrices
+
+# Deliverable 4
+
+### Result of Analysis:
+- Best Locations:
+  - Los Angeles, California
+  - San Francisco, California 
+- Plan with the results:
+  - Pick a limit of stores to test our new product with avocados in LA and San Francisco. Also we would branch out to Texas as that came up close behind        California. 
+
+### Recommendation for future analysis:
+- The recommendations for future analysis specifically for database, use a larger dataset to see if this impacts our answer in anyway. Also  I would integrate more tables and take in the population aspect to help understand and support in answering our main question better. Knowing the population per state would also be a big data set that shape the database and interact with the analysis and machine learning.
+
+### Anything the team would have done differently
+- In the aspect of database, I would like to try to see if we can create more tables and see more of the connection between each. Another things is to try other SQL codes to filter out to better see the data in tables which would help understand the relationship of the data as parts. 
